@@ -5,7 +5,7 @@
 这是兼容候选，不是 GOG 或 Square Enix 官方组件。成就是否显示、同步和解锁取决于 GOG Galaxy 登录状态、游戏版本和实际游戏条件。发布时必须同时遵守 FFNx、汉化补丁、字体和第三方运行库的许可证与再分发许可。
 
 > [!WARNING]
-> **内置繁体中文补丁授权声明：**当前完整测试包内置的繁体中文补丁 v1.47 来源于 [FF Saga / FFSaga](https://www.youtube.com/@ffsaga)，其内置和再分发目前**未经补丁作者明确同意**。如补丁作者或相关权利人提出异议，本项目将从后续源码快照和发布包中移除内置繁体中文资源。语言包导入功能不会因此移除，用户仍可通过 `imports/language` 导入其自行合法取得并有权使用的兼容语言包。
+> **内置繁体中文补丁授权声明：**当前完整测试包内置的繁体中文补丁 v1.47 来源于 [ffsaga](https://www.youtube.com/@ffsaga)，其内置和再分发目前**未经补丁作者明确同意**。如补丁作者或相关权利人提出异议，本项目将从后续源码快照和发布包中移除内置繁体中文资源。语言包导入功能不会因此移除，用户仍可通过 `imports/language` 导入其自行合法取得并有权使用的兼容语言包。
 
 ## 快速使用
 
@@ -119,7 +119,7 @@ GOG 游戏根目录的 Galaxy.dll/GalaxyConfig.json
 
 ## 特别鸣谢
 
-- [FF Saga / FFSaga](https://www.youtube.com/@ffsaga)：本项目使用的繁体中文补丁来源。感谢其制作、整理与分享 FFVII 繁体中文资源。
+- [ffsaga](https://www.youtube.com/@ffsaga)：本项目使用的繁体中文补丁来源。感谢其制作、整理与分享 FFVII 繁体中文资源。
 - [FFNx](https://github.com/julianxhokaxhiu/FFNx) 项目及其贡献者：感谢提供开源的现代 FFVII 游戏驱动、资源覆盖与渲染运行时。本项目的中文显示方案建立在 FFNx 之上。
 - 一位无名氏的 GOG 粉丝大力支持。
 
