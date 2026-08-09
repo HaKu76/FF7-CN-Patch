@@ -1,0 +1,11 @@
+# Normalize ordinary source and documentation files.
+* text=auto
+*.ps1 text eol=crlf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+
+# These launchers are GBK + CRLF for reliable cmd.exe parsing.
+# Never let Git rewrite their bytes or line endings.
+*.cmd -text
+*.bat -text

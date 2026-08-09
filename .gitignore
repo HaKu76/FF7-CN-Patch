@@ -1,0 +1,68 @@
+# Local game installation and generated installer state
+/backups/
+/logs/
+/state/
+/build/
+/patch-output/
+/release/
+/translation-backups/
+
+# Imported archives and extracted third-party modules stay local.
+# Keep only the small usage documents that define the expected layout.
+/imports/*
+!/imports/README.txt
+!/imports/language/
+/imports/language/*
+!/imports/language/README.txt
+!/imports/ffnx/
+/imports/ffnx/*
+!/imports/ffnx/README.txt
+
+# Third-party Chinese resources are distributed separately, not committed.
+/language-packs/*
+!/language-packs/README.md
+
+# FFNx binaries, game executables and compatibility payloads are release assets.
+/runtime-payload/*
+!/runtime-payload/ffnx-module.json
+
+# Built release/test archives belong in GitHub Releases.
+/test-packages/
+
+# Local research inputs and generated third-party payloads
+/_build/
+/patch/
+/backup/
+
+# Build outputs
+**/bin/
+**/obj/
+**/.vs/
+**/.idea/
+installer/.nuget/
+
+# Python/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local logs, archives and game/runtime binaries
+*.log
+*.zip
+*.rar
+*.7z
+*.dll
+*.exe
+*.pdb
+*.lgp
+*.bin
+*.bak
+*.tmp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~

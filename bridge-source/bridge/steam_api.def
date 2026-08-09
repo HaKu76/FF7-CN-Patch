@@ -1,0 +1,13 @@
+LIBRARY steam_api
+EXPORTS
+    SteamAPI_Init
+    SteamAPI_RegisterCallback
+    SteamAPI_RestartAppIfNecessary
+    SteamAPI_RunCallbacks
+    SteamAPI_Shutdown
+    SteamAPI_UnregisterCallback
+    SteamUser
+    SteamUserStats
+    SteamUtils
+    FFNxGOGBridge_ResolveOnly
+

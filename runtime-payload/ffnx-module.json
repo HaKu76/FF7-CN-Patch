@@ -1,0 +1,15 @@
+{
+  "format": "ffnx-gog-runtime-module-v1",
+  "packageVersion": "0.7.3",
+  "upstreamProject": "https://github.com/julianxhokaxhiu/FFNx",
+  "upstreamReleases": "https://github.com/julianxhokaxhiu/FFNx/releases",
+  "upstreamVersion": "1.24.2.26",
+  "upstreamCommit": "7b7799027a02ce279a34e4ecc69bd8c676430a53",
+  "upstreamSourceArchive": "https://github.com/julianxhokaxhiu/FFNx/archive/7b7799027a02ce279a34e4ecc69bd8c676430a53.zip",
+  "architecture": "x86",
+  "upstreamAF3DNSha256": "8a21e5a990ea9d28e4b85f814d0c8923bcb7456438765663d5c8daaab1db5de7",
+  "installedAF3DNSha256": "2ccb5282417a04c6370dcfe56f2fa05c919bb57ce944461feaa881b102c1f873",
+  "bridgeAdapterSha1": "1f0dd14253da0185b5f8aa9e291096c577ea0fef",
+  "modification": "The upstream Valve steam_api.dll SHA-1 allowlist marker is replaced with the packaged GOG adapter SHA-1.",
+  "verifiedStatus": "Chinese rendering and GOG achievement unlock verified by the project owner"
+}
