@@ -35,12 +35,13 @@ set "LOGFILE=%~dp0logs\one-click-!STAMP!.log"
 :menu
 cls
 echo ============================================================
-echo   FFVII GOG + FFNx 简体中文一键安装器 0.7.7
+echo   FFVII GOG + FFNx 简体中文一键安装器 0.7.8
 echo ============================================================
 echo   游戏目录: %~dp0..
 echo   日志文件: !LOGFILE!
 echo.
 echo   [内置] 繁体中文 v1.47，可直接安装，无需执行导入
+echo   [授权提示] 内置繁中未经作者明确再分发同意，异议时将移除内置资源
 echo   [内置] FFNx 1.24.2.26 x86，可直接安装，无需执行导入
 echo.
 echo   [1] 导入/更新语言包（可选；放入 imports\language）

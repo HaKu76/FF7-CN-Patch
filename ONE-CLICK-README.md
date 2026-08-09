@@ -16,6 +16,8 @@
 
 当前完整包已经内置繁体中文 v1.47 和 FFNx 1.24.2.26 x86。普通用户直接选择菜单 `4`，不需要先执行 `1` 或 `2`。
 
+**授权提示：**内置繁体中文 v1.47 来源于 [FF Saga / FFSaga](https://www.youtube.com/@ffsaga)，其内置和再分发未经补丁作者明确同意。如作者或相关权利人提出异议，后续版本将移除内置繁中资源，但菜单 `1` 的外置语言包导入功能仍会保留。
+
 语言包放入 `imports\language`；FFNx-Steam 模块放入 `imports\ffnx`。两个入口完全分开，每个目录一次只放一个 ZIP/RAR 或解压目录。目录为空时不会报错，而是显示当前内置模块状态。游戏已经安装时，语言包导入会自动备份旧模块、回滚旧安装并重新安装；只有整个更新流程成功后，导入目录内的压缩包/文件夹才会自动删除。
 
 每次操作的完整输出在 `logs\one-click-*.log`；菜单 6 只清除安装器日志，不删除游戏运行日志；安装前备份在 `backups\<timestamp>`；状态清单是 `state\install-manifest.json`。游戏运行日志在 `ff7\workingdir\FFNx.log` 和 `FFNxGOGBridge.log`。

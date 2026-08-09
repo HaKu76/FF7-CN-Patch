@@ -4,6 +4,9 @@
 
 这是兼容候选，不是 GOG 或 Square Enix 官方组件。成就是否显示、同步和解锁取决于 GOG Galaxy 登录状态、游戏版本和实际游戏条件。发布时必须同时遵守 FFNx、汉化补丁、字体和第三方运行库的许可证与再分发许可。
 
+> [!WARNING]
+> **内置繁体中文补丁授权声明：**当前完整测试包内置的繁体中文补丁 v1.47 来源于 [FF Saga / FFSaga](https://www.youtube.com/@ffsaga)，其内置和再分发目前**未经补丁作者明确同意**。如补丁作者或相关权利人提出异议，本项目将从后续源码快照和发布包中移除内置繁体中文资源。语言包导入功能不会因此移除，用户仍可通过 `imports/language` 导入其自行合法取得并有权使用的兼容语言包。
+
 ## 快速使用
 
 1. 将 `FF7-CN-Patch` 放在 GOG 游戏根目录，并确保它与 `FFVII.exe` 同级。
@@ -114,6 +117,12 @@ GOG 游戏根目录的 Galaxy.dll/GalaxyConfig.json
 
 启动器发现安装清单后会执行已安装文件哈希校验；文件被外部修改时会拒绝静默覆盖，并要求先回滚/重新安装。回滚或删除安装清单后，需要再次以管理员身份运行安装菜单。
 
+## 特别鸣谢
+
+- [FF Saga / FFSaga](https://www.youtube.com/@ffsaga)：本项目使用的繁体中文补丁来源。感谢其制作、整理与分享 FFVII 繁体中文资源。
+- [FFNx](https://github.com/julianxhokaxhiu/FFNx) 项目及其贡献者：感谢提供开源的现代 FFVII 游戏驱动、资源覆盖与渲染运行时。本项目的中文显示方案建立在 FFNx 之上。
+- 一位无名氏的 GOG 粉丝大力支持。
+
 ## 开发与许可证
 
-PowerShell 5.1、Windows `tar.exe` 和 FFNx 运行时是最低要求。FFNx 许可文本随 `runtime-payload/ffnx/COPYING.TXT` 提供，运行时模块的版本和修改记录位于 `runtime-payload/ffnx-module.json`。汉化资源、字体、`ali213.dll`、`ff7_en.exe` 和 `msvcr100.dll` 来自用户授权的第三方补丁，正式公开发布前必须取得对应再分发许可；本仓库不声称拥有这些第三方资产的版权。
+PowerShell 5.1、Windows `tar.exe` 和 FFNx 运行时是最低要求。FFNx 许可文本随 `runtime-payload/ffnx/COPYING.TXT` 提供，运行时模块的版本和修改记录位于 `runtime-payload/ffnx-module.json`。汉化资源、字体、`ali213.dll`、`ff7_en.exe` 和 `msvcr100.dll` 来自第三方补丁；本项目目前尚未取得这些第三方资产的完整再分发授权，也不声称拥有其版权。收到作者或权利人异议时，相关内置资产将从后续发布中移除，外置模块导入机制仍会保留。
